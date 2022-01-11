@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2022 Bobby Hoang.  All rights reserved.
+ */
+
 repositories {
     mavenCentral()
 }

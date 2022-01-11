@@ -2,6 +2,8 @@
  * Copyright (c) 2022 Bobby Hoang.  All rights reserved.
  */
 
-rootProject.name = "TechDebit"
+package id
 
-include(":api", ":server")
+interface Id {
+    fun bytes(): List<Byte>
+}
