@@ -4,12 +4,12 @@
 
 package account
 
-sealed class AccountType( val type: String) {
-    class Checking: AccountType("checking")
-    class Saving: AccountType("saving")
-    class Brokerage: AccountType("brokerage")
-    class Retirement: AccountType("retirement")
-    class CreditCard: AccountType("credit-card")
-    class Mortgage: AccountType("mortgage")
-    class Loan: AccountType("loan")
+sealed class AccountType {
+    class Checking: AccountType()
+    class Saving: AccountType()
+    class Brokerage: AccountType()
+    class IRA: AccountType()
+    class CreditCard: AccountType()
+    class Mortgage: AccountType()
 }
+

@@ -9,5 +9,6 @@ plugins {
 
 dependencies {
 
-    testImplementation("nl.jqno.equalsverifier", "equalsverifier", "3.8.2")
+    testImplementation( "com.willowtreeapps.assertk:assertk-jvm:0.24")
+    testImplementation("nl.jqno.equalsverifier:equalsverifier:3.8.2")
 }

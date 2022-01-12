@@ -2,12 +2,12 @@
  * Copyright (c) 2022 Bobby Hoang.  All rights reserved.
  */
 
-package account
+package merchant
 
 import id.Id
 import id.UuidId
 import java.util.*
 
-data class AccountId(
+data class MerchantId(
     private val uuid: UUID = UUID.randomUUID(),
 ) : Id by UuidId(uuid)

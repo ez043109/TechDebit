@@ -7,5 +7,6 @@ package account
 data class AccountInfo(
     val accountId: AccountId,
     val accountType: AccountType,
-    val institutionName: String,
+    var accountNumber: String?,
+    var institutionName: String,
 )

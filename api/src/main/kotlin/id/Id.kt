@@ -5,5 +5,5 @@
 package id
 
 interface Id {
-    fun bytes(): List<Byte>
+    fun asText(): String
 }
